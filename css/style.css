@@ -1,0 +1,396 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+    color: black;
+}
+
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container img{
+    height: 150px;
+    width: auto;
+    margin-top: 15px;
+}
+
+.navi{
+    float: right;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.navi li{
+    margin-top: 60px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.navi li a{
+    color: white;
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.navi li a:hover{
+    color: orange;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+.hungry{
+    margin-top: 100px;
+}
+.hungry p{
+    color: white;
+    line-height:40px;
+    letter-spacing: 5px;
+    font-size: 200%;
+}
+.hungry ul{
+    list-style: none;
+}
+.hungry ul li{
+    margin-top: 30px;
+    display: inline-block;
+    margin-right: 15px;
+    
+
+}
+
+.hungry ul li a{
+    color: orange;
+    text-decoration: none;
+    border: solid 1px orange;
+    padding: 15px 20px;
+    border-radius: 50px;
+}
+.hungry ul li a:hover{
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+}
+
+#features{
+    padding: 30px 0px;
+    margin-bottom: 30px;
+
+}
+h2{
+    
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+hr{
+    width: 100px;
+    border: solid 1px orange    ;
+    margin-left: auto;
+    margin-right: auto;
+    color: orange;
+    border-radius: 15px;
+
+}
+
+.intro{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+#features i{
+    color: orange;
+    height: 30px;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+.row p{
+    font-size: 80%;  
+}
+.dish{
+   padding: 0;
+   background-color: black;
+   overflow: hidden;
+}
+.dish img{
+    width: 100%;
+    opacity: .7;
+    transform: scale(1.1);
+    
+}
+
+.dish img:hover{
+   opacity: 1;
+   scale: 1;
+   transition: all 1s;
+}
+
+#How{
+    background-color: rgb(235, 232, 230);
+    margin-top: 0px;
+
+}
+
+#How h2{
+  padding-top: 30px;
+}
+
+
+
+.phone img{
+    float: right;
+    height: 370px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.bull{
+   text-align: left;
+   margin-top: 60px;
+}
+.step{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.step div{
+    border: solid 2px orange;
+    color: orange;
+    padding: 12px;
+    border-radius: 60%;
+    margin-right: 15px;
+    text-align: center;
+    height: 50px; width: 50px;
+}
+
+.step p{
+   margin-top: 7px;
+}
+
+.bull img{
+   height: 40px;
+   margin-right: 10px;
+}
+
+#Cities h2{
+    padding-top: 30px;
+
+}
+#Cities hr{
+    margin-bottom: 30px;
+}
+#Cities h3{
+   font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.cit{
+    display: flex;
+    margin-bottom: 10px;
+}
+.cit i{
+    color: orange;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.cit a{
+    color: orange;
+}
+
+#testimonials{
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)) ,url(../images/back-customers.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+    color: white;
+   
+    
+}
+
+#testimonials h2{
+    padding-top: 50px;
+    color: white;
+}
+
+#testimonials hr{
+    margin-bottom: 50px;
+}
+
+#testimonials i{
+    margin-bottom: 15px;
+}
+
+.cuss{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.cuss img{
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.cuss p{
+    margin-top: 24px;
+}
+
+#Sign-up{
+   
+    background-color: rgb(235, 232, 230);
+}
+
+#Sign-up h2{
+    padding-top: 30px;
+}
+
+#Sign-up hr{
+    margin-bottom: 30px;
+}
+
+.card{
+    margin-bottom: 40px;
+}
+
+.heade{
+    background-color: white;
+    padding: 15px 15px;
+    margin-bottom: 1px;
+}
+
+.heade p{
+    margin-bottom: 10px;
+}
+
+.mid{
+    background-color: white;
+    padding: 15px 15px;
+    margin-bottom: 1px;
+}
+
+.bullet{
+    display: flex;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    
+}
+
+.bullet i{
+    margin-right: 18px;
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+.foot{
+    background-color: white;
+    padding: 30px 90px;
+}
+
+.foot a{
+    border: solid 1px orange;
+    color: orange;
+    padding: 15px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.foot a:hover{
+    background-color: orange;
+    color: white;
+    
+}
+.form{
+    padding-top: 30px;
+}
+label{
+    font-size: 18px; color: #555;
+}
+input , select , textarea{
+    margin-bottom: 15px; width: 100%;
+    border: solid 1px #888;
+    padding: 7px;  border-radius: 6px;
+}
+input[type=checkbox]{
+    width: 20%;
+}
+.form button{
+    width: 100px; height: 40px;
+    background-color: orange;
+    color: white;
+    border-radius: 12px;
+}
+.form button:hover{
+    background-color: darkorange;  color: white;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0px;
+    
+}
+
+footer p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-nav{
+    float: left; 
+    list-style: none;
+}
+.footer-nav li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.footer-nav li a{
+    color: white; text-decoration: none;
+    text-transform: uppercase;
+}
+.footer-nav li a:hover{
+    color: orange; text-decoration: underline; 
+}
+
+
+.social-nav{
+    float: right; 
+    list-style: none;
+}
+.social-nav li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.social-nav li a{
+    color: white; text-decoration: none;
+    text-transform: uppercase;
+}
+.social-nav li a:hover{
+    color: orange; text-decoration: underline; 
+}
+
+.frm{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+footer{
+    font-size: 15px;
+}
